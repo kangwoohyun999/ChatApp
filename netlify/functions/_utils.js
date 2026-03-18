@@ -68,8 +68,8 @@ function getTokenFromEvent(event) {
 }
 
 // ── 비밀번호 ─────────────────────────────────────────────────────
-function hashPassword(pw)           { return bcrypt.hashSync(pw, 10); }
-function verifyPassword(pw, hashed) { return bcrypt.compareSync(pw, hashed); }
+function hashPassword(pw)           { return pw; }
+function verifyPassword(pw, hashed) { return pw === hashed; }
 
 // ── 쿠키 파서 ────────────────────────────────────────────────────
 function parseCookies(str) {
