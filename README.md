@@ -2,6 +2,10 @@
 
 실시간 채팅 웹앱 | Netlify Functions (서버리스) + Supabase Realtime
 
+```
+https://chatapp-knu.netlify.app/
+```
+
 ---
 
 ## 아키텍처
