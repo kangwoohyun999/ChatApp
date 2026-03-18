@@ -1,0 +1,20 @@
+{
+  "name": "chatapp-netlify",
+  "version": "1.0.0",
+  "description": "실시간 채팅앱 - Netlify Functions + Supabase",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'"
+  }
+}
